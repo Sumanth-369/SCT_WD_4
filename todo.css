@@ -1,0 +1,23 @@
+
+body {
+  background-color: #01203d;
+}
+
+h1 {
+  color: #fff;
+}
+
+#task-input, #date-input {
+  max-width: 40%;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
